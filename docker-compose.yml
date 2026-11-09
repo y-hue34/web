@@ -1,0 +1,8 @@
+services:
+  web:
+    image: codyssey-web:1.0
+    container_name: codyssey-compose-web
+    ports:
+      - "8083:80"
+    environment:
+      APP_ENV: compose
