@@ -29,10 +29,10 @@ Windows에서 Git, VS Code, Docker Desktop을 사용해 재현 가능한 웹 서
 - [x] Dockerfile 기반 NGINX 커스텀 이미지
 - [x] 포트 8080, 8081 접속 및 HTTP 200 확인
 - [x] 바인드 마운트 파일 준비
-- [ ] 바인드 마운트 실행 후 변경 반영 검증
-- [ ] Docker 볼륨 영속성 검증
-- [ ] Compose 단일·멀티 서비스 실행 검증
-- [ ] GitHub 원격 저장소 생성 및 push
+- [x] 바인드 마운트 실행 후 변경 반영 검증
+- [x] Docker 볼륨 영속성 검증
+- [x] Compose 단일·멀티 서비스 실행 검증
+- [x] GitHub 원격 저장소 생성 및 push
 - [ ] SSH 키 등록
 
 ## 5. Dockerfile
@@ -298,15 +298,15 @@ dism.exe /online /get-featureinfo /featurename:VirtualMachinePlatform
 
 ### 13.15 제출 전 증거 체크리스트
 
-- [ ] docker --version 출력 캡처
-- [ ] docker info 또는 Docker Desktop 데몬 상태 캡처
-- [ ] docker run --rm hello-world 성공 출력 캡처
-- [ ] docker ps -a와 docker images 출력 캡처
-- [ ] ls -l linux_practice.txt 출력 캡처
-- [ ] 바인드 마운트 HTTP 200 응답 캡처
-- [ ] 두 볼륨 컨테이너의 persistent-data 출력 캡처
-- [ ] git remote -v와 GitHub 저장소 링크 캡처
-- [ ] 포트 충돌 진단 결과 및 해결 로그 캡처
+- [x] docker --version 출력 캡처
+- [x] docker info 또는 Docker Desktop 데몬 상태 캡처
+- [x] docker run --rm hello-world 성공 출력 캡처
+- [x] docker ps -a와 docker images 출력 캡처
+- [x] ls -l linux_practice.txt 출력 캡처
+- [x] 바인드 마운트 HTTP 200 응답 캡처
+- [x] 두 볼륨 컨테이너의 persistent-data 출력 캡처
+- [x] git remote -v와 GitHub 저장소 링크 캡처
+- [x] 포트 충돌 진단 결과 및 해결 로그 캡처
 
 
 ### 13.16 실제 실행 출력 캡처
