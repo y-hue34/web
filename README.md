@@ -337,3 +337,4 @@ dism.exe /online /get-featureinfo /featurename:VirtualMachinePlatform
 
 - Docker Desktop Logs 캡처: ![docker logs](evidence/12-docker-logs.png)
 - Docker Desktop Stats 캡처: ![docker stats](evidence/13-docker-stats.png)
+- 파일 생성·이동·삭제 명령: ![file operations](evidence/14-file-operations.png)
