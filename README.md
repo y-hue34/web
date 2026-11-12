@@ -333,3 +333,4 @@ dism.exe /online /get-featureinfo /featurename:VirtualMachinePlatform
 - Git 설정·원격·커밋 기록: ![git config remote](evidence/10-git-config-remote.png)
 
 위 캡처들은 민감한 이메일 주소를 제외한 제출용 화면이며, 기존 verification.png는 Docker 데몬 오류를 기록한 트러블슈팅 참고 캡처입니다.
+- VS Code Source Control 연동 화면: ![VS Code GitHub](evidence/11-vscode-github.png)
