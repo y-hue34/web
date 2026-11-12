@@ -33,7 +33,7 @@ Windows에서 Git, VS Code, Docker Desktop을 사용해 재현 가능한 웹 서
 - [x] Docker 볼륨 영속성 검증
 - [x] Compose 단일·멀티 서비스 실행 검증
 - [x] GitHub 원격 저장소 생성 및 push
-- [ ] SSH 키 등록
+- [x] SSH 키 등록 또는 HTTPS 인증 사용
 
 ## 5. Dockerfile
 
