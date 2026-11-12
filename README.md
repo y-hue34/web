@@ -314,3 +314,22 @@ dism.exe /online /get-featureinfo /featurename:VirtualMachinePlatform
 아래 이미지는 Docker 버전·데몬 상태·hello-world·컨테이너/이미지 목록·Git 원격 및 포트 확인 명령의 실제 실행 화면입니다.
 
 ![실행 출력 검증 캡처](evidence/verification.png)
+
+
+### 13.17 제출용 실제 실행 캡처 목록
+
+평가자가 명령 입력과 결과를 함께 확인할 수 있도록 실제 캡처 파일을 연결했습니다.
+
+- Docker 버전: ![docker version](evidence/01-docker-version.png)
+- Docker 데몬 상태: ![docker info](evidence/02-docker-info.png)
+- hello-world 성공: ![hello-world](evidence/03-hello-world.png)
+- 컨테이너·이미지 목록: ![docker lists](evidence/04-docker-lists.png)
+- Linux 권한 변경 전·후: ![permissions](evidence/05-permissions.png)
+- Dockerfile 빌드 성공: ![docker build](evidence/06-docker-build.png)
+- 포트 매핑 브라우저 접속: ![port 8080 browser](evidence/07-port-8080-browser.png)
+- 포트 매핑 터미널 보조 로그: ![port 8080 terminal](evidence/07-port-8080.png)
+- 바인드 마운트 변경 전·후: ![bind mount](evidence/08-bind-mount.png)
+- 볼륨 영속성 삭제 전·후: ![volume persistence](evidence/09-volume-persistence.png)
+- Git 설정·원격·커밋 기록: ![git config remote](evidence/10-git-config-remote.png)
+
+위 캡처들은 민감한 이메일 주소를 제외한 제출용 화면이며, 기존 verification.png는 Docker 데몬 오류를 기록한 트러블슈팅 참고 캡처입니다.
