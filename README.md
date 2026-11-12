@@ -307,3 +307,10 @@ dism.exe /online /get-featureinfo /featurename:VirtualMachinePlatform
 - [ ] 두 볼륨 컨테이너의 persistent-data 출력 캡처
 - [ ] git remote -v와 GitHub 저장소 링크 캡처
 - [ ] 포트 충돌 진단 결과 및 해결 로그 캡처
+
+
+### 13.16 실제 실행 출력 캡처
+
+아래 이미지는 Docker 버전·데몬 상태·hello-world·컨테이너/이미지 목록·Git 원격 및 포트 확인 명령의 실제 실행 화면입니다.
+
+![실행 출력 검증 캡처](evidence/verification.png)
