@@ -334,3 +334,6 @@ dism.exe /online /get-featureinfo /featurename:VirtualMachinePlatform
 
 위 캡처들은 민감한 이메일 주소를 제외한 제출용 화면이며, 기존 verification.png는 Docker 데몬 오류를 기록한 트러블슈팅 참고 캡처입니다.
 - VS Code Source Control 연동 화면: ![VS Code GitHub](evidence/11-vscode-github.png)
+
+- Docker Desktop Logs 캡처: ![docker logs](evidence/12-docker-logs.png)
+- Docker Desktop Stats 캡처: ![docker stats](evidence/13-docker-stats.png)
